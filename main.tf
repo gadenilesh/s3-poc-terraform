@@ -5,6 +5,6 @@ resource "aws_s3_bucket" "s3bucket" {
 
   tags = {
     Name        = "DemoBucket"
-    Environment = "Staging"
+    Environment = "Staging_Env"
   }
 }
